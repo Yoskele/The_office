@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{# To do: add a list of messages here.
+
+If no messages are found, show an appropriate message instead.
+
+#}
+	
+	<div class="emailbox">
+
+		<ul class="list-group">
+
+		  {% for message in messages %}
+
+		  <li class="list-group-item">{{ message.subject}} from {{message.from}} <a class="openmail" href="{{ url_for('show_message', id=message.id) }}"> Open </a> </li>
+
+		  {% endfor %}
+
+		</ul>
+	</div>
+
+{% endblock %}
+

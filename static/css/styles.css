@@ -1,0 +1,69 @@
+.message-pane {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 5px 0px;
+	min-height: 250px;
+}
+
+.btn-compose img {
+	margin-right: 5px;
+
+}
+
+.logga_ut{
+	color:red;
+}
+
+
+/* Compose Email. */
+
+
+.inputmessage{
+	width:835px;
+	height:400px;
+	border:1px solid black;
+}
+
+.minibox button{
+	margin-left:800px;
+}
+/* Page Messages.html */
+.emailbox{
+	margin-left:150px;
+
+	width:80%;
+}
+
+/* Open mail is a button */
+.openmail{
+	margin-left: 90%;
+	color:red;
+
+}
+
+
+/* Page message.html. */
+.bigbox{
+	margin:25%;
+	margin-top:5%;
+	width:50%;
+	height:500px;
+	border:1px solid black;
+	border-radius:10px;
+}
+
+.adress{
+	margin-top:5px;
+	margin-left:10px;
+}
+.content{
+	border-top:1px solid black;
+	height:500px;
+	border-radius:10px;
+}
+
+.text{
+	margin-left:10px;
+	margin-top:10px;
+}

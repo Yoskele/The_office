@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+
+{# To do: add HTML content here #}
+
+  	<div class="bigbox">
+	    <form method="post">
+
+	    	<div class="adress">
+		    	<label> From: </label> <label> {{email.from}} </label>
+				<hr>
+				<label> Subject: </label> <label> {{email.subject}} </label>
+			</div>
+
+
+			<div class="content">
+
+
+
+				<div class="text">{{email.body}}</div>
+
+			</div>
+
+	      <!-- To do: add input components here -->
+	    </form>
+
+
+{% endblock %}
+

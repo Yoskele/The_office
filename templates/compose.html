@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <h1>New Message</h1>
+  <div class="mx-5">
+  	<div class="minibox">
+	    <form method="post">
+	    	<div class="adress">
+		    	<label> To: </label>
+				<input type="text" name="from" id="username">
+				<br>
+				<label> Subject: </label>
+				<input type="text" name="subject" id="subject">
+			</div>
+			<div>
+				<input class="inputmessage" id="body" placeholder="Write Here..."> </input>
+				<br>
+				<button type="submit" class="btn btn-secondary">Send </button>
+
+			</div>
+
+	      <!-- To do: add input components here -->
+	    </form>
+    </div>
+  </div>
+
+  {% endblock %}
